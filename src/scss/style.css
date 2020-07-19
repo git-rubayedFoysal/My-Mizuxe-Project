@@ -1,0 +1,79 @@
+body {
+  margin-top: 90px;
+}
+
+.navbar {
+  -webkit-box-shadow: 2px 2px 5px #3292a6;
+          box-shadow: 2px 2px 5px #3292a6;
+  background-color: #fff;
+  opacity: 0.9;
+}
+
+.navbar .nav-item {
+  font-size: 1.4rem;
+  padding-right: 20px;
+}
+
+.navbar .nav-item .nav-link {
+  color: #252525;
+}
+
+.navbar .nav-item .nav-link:hover {
+  color: #3292a6;
+}
+
+.navbar .nav-item:last-child {
+  padding-right: 0px;
+}
+
+#home-section {
+  background: url("../img/mountains.jpg") no-repeat;
+  min-height: 600px;
+  background-attachment: fixed;
+  position: relative;
+}
+
+#home-section .overly-bg {
+  background-color: rgba(50, 146, 156, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#subscribe {
+  background-color: #252525;
+}
+
+#authos .card img {
+  margin-top: -50px;
+}
+
+#authos .card .fab {
+  font-size: 30px;
+}
+
+#authos .card:hover {
+  background-color: #3292a6;
+  color: #fff;
+}
+
+#authos .card:hover .fab {
+  color: #fff;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+@media (max-width: 576px) {
+  #home-section h1 {
+    font-size: 4rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

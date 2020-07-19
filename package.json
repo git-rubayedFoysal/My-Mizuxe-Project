@@ -1,0 +1,22 @@
+{
+  "name": "bs4project",
+  "version": "1.0.0",
+  "description": "Bootstrap starer",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Foysal",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.1.0-9",
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  }
+}
